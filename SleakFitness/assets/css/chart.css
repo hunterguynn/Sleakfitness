@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+    Chart Overrides
+  --------------------------------------------------------------*/
+
+  
+  .ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: #62C332;
+    z-index: -1;
+    position: relative;
+
+  }
+
+
+
+  .ct-grid {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 0px; 
+    z-index: -1;
+    position: relative;
+  }
+
+  .ct-horizontal{
+    z-index: -1;
+  }
+
+  .ct-grid-background {
+    fill:  #2B4D50;
+ }
+
+
+ .ct-series-a .ct-point{
+        stroke: #CCCCCC;
+    }
+
+    .ct-label {
+      fill:#CCCCCC;
+      color: #CCCCCC;
+      font-size: 0.75rem;
+      line-height: 1; }
+
+
+    .ct-area {
+        stroke: black;
+        fill-opacity: 1; }
